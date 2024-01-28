@@ -2,7 +2,7 @@ version: '3'
 services:
   server:
     image: jekyll/jekyll:4.2.2
-    container_name: jekyll-template
+    container_name: try-theme-just-the-docs
     environment:
       MY_ENV_VAR_DUMMY: 'dummy'
     volumes:
