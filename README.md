@@ -52,4 +52,4 @@ This is based on jekyll-theme [minima](https://github.com/jekyll/minima#contents
 - Remote themes
   - Not shown as as dependency in theme repo
 
-Based on [try-theme-bulma](https://jekyllthemes.io/theme/bulma)
+Based on [just-the-docs](https://jekyllthemes.io/theme/just-the-docs)
