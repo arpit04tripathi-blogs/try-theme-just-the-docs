@@ -1,7 +1,9 @@
 source "https://rubygems.org"
 gem "jekyll", "~> 4.2.2"
 gem "webrick"
-gem "just-the-docs"        # always download the latest release
+gem "jekyll-seo-tag"
+gem "jekyll-include-cache"
+gem "rake"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
@@ -9,7 +11,7 @@ gem "just-the-docs"        # always download the latest release
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
-  # gem "jekyll-remote-theme"
+  gem "jekyll-remote-theme"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
