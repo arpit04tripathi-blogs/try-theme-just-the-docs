@@ -7,7 +7,13 @@ baseurl: "/try-theme-just-the-docs" # subpath e.g. /blog
 url: "" # base url e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
-
+  
 # Theme specific configs
-# theme: just-the-docs
 remote_theme: just-the-docs/just-the-docs
+aux_links: # Aux links for the upper right navigation
+  "Just the Docs on GitHub":
+    - "//github.com/just-the-docs/just-the-docs"
+aux_links_new_tab: true # Makes Aux links open in a new tab. Default is false
+mermaid:
+  # Version of mermaid library : Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
+  version: "10.7.0"
