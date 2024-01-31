@@ -43,3 +43,13 @@ git push;
 ```
 
 This is based on jekyll-theme [minima](https://github.com/jekyll/minima#contents-at-a-glance)
+
+# Themes as gem vs as remote-theme?
+- Gem based
+   - also has _config from root theme
+   - Shown as dependency in theme repo so everyone will know about it
+   - https://github.com/chrisrhymes/bulma-clean-theme/network/dependents 
+- Remote themes
+  - Not shown as as dependency in theme repo
+
+Based on [just-the-docs](https://jekyllthemes.io/theme/just-the-docs)
