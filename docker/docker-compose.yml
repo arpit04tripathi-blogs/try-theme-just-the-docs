@@ -9,14 +9,4 @@ services:
       - '../.:/srv/jekyll' # relative path from this folder
     ports:
       - 9999:4000 # (localhost port) => (docker port)
-    command: sh "docker/entry.sh"
-  create-new:
-    image: jekyll/jekyll:4.2.2
-    container_name: jekyll-new
-    environment:
-      MY_ENV_VAR_DUMMY: 'dummy'
-    volumes:
-      - '../.:/srv/jekyll'
-    ports:
-      - 4000:4000 # (localhost port) => (docker port)
-    command: "jekyll new ./new_site"
+    command: sh "docker/docker-compose.sh"
